@@ -7,8 +7,8 @@ driver.get("http://indyhelpdesk:8080/HomePage.do")
 username = driver.find_element_by_id("username")
 password = driver.find_element_by_id("password")
 
-username.send_keys("yuangu")
-password.send_keys("asd123!@#")
+username.send_keys("xxxx")
+password.send_keys("xxxx")
 
 driver.find_element_by_xpath('//*[@id="loginFormDiv"]/form/table/tbody/tr[6]/td[2]/table/tbody/tr/td[3]/input').click()
 driver.find_element_by_xpath('//*[@id="Requests"]').click()
